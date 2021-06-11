@@ -1,0 +1,28 @@
+{
+    "name": "Sebastian Castañeda",
+    "description": "Pagina corpoaequus",
+    "license": "MIT tambien",
+    "homepage": "http://localhost.com",
+    "keywords": [
+        "KEY tambien",
+        "ETC tambien"
+    ],
+    "authors": [
+        {
+            "name": "Sebastian Castañeda Guzman",
+            "email": "sebascastaeda31@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "~7.0"
+	},
+    "require-dev": {},
+	
+	"post-install-cmd": 
+	[
+		 "php artisan clear-compiled",
+		 "chmod -R 777 public/"
+	]
+}
