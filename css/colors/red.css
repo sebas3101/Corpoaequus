@@ -80,6 +80,11 @@ h1.big span.underline,
     background:linear-gradient(to right, #eb3349, #f45c43);
 }
 
+/* 
+.overlayDOS, span.overlay {
+    background:linear-gradient(to right, #48eb33, #f443a1) !important;
+} */
+
 #mainmenu li:hover>ul,
 #mainmenu li:hover>a,
 .date-box .day,
