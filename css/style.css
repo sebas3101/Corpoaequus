@@ -230,10 +230,14 @@ header.autoshow.scrollOff {
     top: -120px;
 }
 
+#logo_principal {
+    width: 5%;
+    height: 58%;
+}
+
 header div#logo {
     display:table-cell;
 	vertical-align:middle;
-	height:100%;
 	position:absolute;
     font-family: "Oswald", sans-serif;
     font-size: 72px;
@@ -877,6 +881,7 @@ header.header-mobile.header-light #menu-btn {
 
 
 /* ================================================== */
+
 
 #content {
     width: 100%;
