@@ -1,7 +1,7 @@
 /* ================================================== */
 
 
-/* Bolo
+/*
 /* created by designesia
 
 * body
@@ -4004,9 +4004,11 @@ span.teaser {
 }
 
 .fa-instagram {
-    background: #f02f99;
+    background: linear-gradient(to right, #fe901e, #a136b9);
 }
-
+.fa-whatsapp {
+    background: #1bd741
+}
 .fa-google-plus {
     background: #df4f37;
 }
